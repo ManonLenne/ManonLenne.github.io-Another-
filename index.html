@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Manon Lenne</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <header class="header">
+    <img src="favicon.png" alt="Header Image" style="height: 50px; width: auto;">
+    <h2>PORTFOLIO</h2>
+    <h3>A propos</h3>
+  </header>
+  <div class="index"></div>
+  <!-- gsap -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.7.0"></script>
+  <script type="module" src="main.js"></script>
+
+  <footer class="footer">
+    <p>Contact : manonlen244@gmail.com</p>
+    <a href="https://www.instagram.com/des.trucs_?igsh=MTQ3dW13MnV6dGZxZw%3D%3D&utm_source=qr" target="_blank" style="color: black; text-decoration: none; font-size: 1em;">Instagram</a>
+
+  </footer>
+
+  <style>
+
+    .footer {
+      text-align: left;
+      padding: 20px;
+      color: #000000;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border-top: 2px solid black;
+      left: 0;
+      right: 0;
+    }
+
+    .footer p {
+      margin: 0;
+      font-size: 1em;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+  </style>
+  <nav></nav>
+
+
+    </nav>
+  <div class="projets">
+
+
+        <style>
+            /* box sizing */
+            *{
+              box-sizing: border-box;
+            }
+       
+            :root {
+              overscroll-behavior: none;
+            }
+       
+            *{
+              box-sizing: border-box;
+            }
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  margin: 0;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background:#dddada;
+  color: #ffffff;
+
+}
+
+/* .projets{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap:24px;
+} */
+
+.projets{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  height: 150vh;
+  align-items: center;
+  margin-top: 225px;
+  gap: 50px;
+  background: none;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transform: scale(1.6);
+    transition: transform 0.3s ease;
+  
+    
+  }
+
+
+
+
+img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.fixed{
+  position: fixed;
+}
+.projets.fixed{
+  top:100px;
+}
+.overlay{
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+  z-index: 9999;
+  backdrop-filter: blur(10px);
+  background-color:#dddada;
+  padding: 48px;
+  top: 0;
+  left:0;
+
+}
+.close{
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  color: #000000;
+  cursor: pointer;
+  font-size: 48px;
+  border-radius: 24px;
+  
+}
+
+.wrap{
+  width:100%;
+}
+
+
+  .header h2 {
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+    margin: 0;
+  }
+  .header h3 {
+    color: black;
+    font-size: 1.5em;
+    text-align: left ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+    margin: 0;
+  }
+ 
+  
+
+  .header {
+    display: flex; justify-content: space-between; align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 2px solid black;
+    left: 0;
+    right: 0;
+    
+  }
+
+
+.fiche{
+  margin: 0px auto;
+  max-width: 620px;
+  background: #dddada;
+  padding: 0 20px 20px;  
+  color: black;
+  
+}
+
+.fiche img{
+  margin:0 -20px 20px;
+  width: calc(100% + 40px);
+}
+
+
+
+</style>
+</head>
+
+
+</body>
+</html>
+
+
+
