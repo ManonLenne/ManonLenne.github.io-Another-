@@ -1,2 +1,2 @@
 
-https:ManonLenne.github/Another.io
+https://ManonLenne.github/Another.io
